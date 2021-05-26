@@ -1,23 +1,8 @@
-# homebrew-trbf 
+# homebrew-abi
 
 ## Overview
 
+abi stands for Automate Brew Install. It will:
 
-## Requirement
-
-
-## Usage
-
-
-## Features
-
-
-## Reference
-
-
-## Author
-
-
-## Licence
-
-Please see license.txt.
+- create a Gist of your Homebrew formula or cask
+- install Homebrew formula or cask from a Gist
