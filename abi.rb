@@ -8,7 +8,7 @@ class Trbf < Formula
   depends_on "gh" 
 
   def install
-    bin.install "trbf"
+    bin.install "abi"
   end
 
   test do
