@@ -3,9 +3,10 @@ class Abi < Formula
   homepage "https://github.com/shinokada/abi"
   url "https://github.com/shinokada/abi/archive/refs/tags/v0.0.4.tar.gz"
   sha256 "45dfc67bd4a5f217532a93c451abc71d4579dce0a80be416903d1b3ee2c778ce"
-  license ""
+  license "MIT"
 
   depends_on "gh" 
+  depends_on "bash"
 
   def install
     bin.install "abi"
