@@ -10,6 +10,10 @@ class Abi < Formula
   depends_on "curl"
   depends_on "jq"
 
+  def build
+    # Nothing to build, this is a shell script
+  end
+
   def install
     bin.install "abi"
   end
